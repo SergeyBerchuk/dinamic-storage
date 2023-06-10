@@ -1,0 +1,133 @@
+#include "ThirdScene.hpp"
+#include "Figure.h"
+#include "DrawLib.hpp"
+#include <array>
+#include "GL/freeglut.h"
+void ThirdBackground() {
+
+	glPushMatrix();
+	glBegin(GL_QUADS);
+	glColor3ub(0, 0, 0);
+	glVertex2f(-2, 1);
+	glVertex2f(2, 1);
+	glVertex2f(2, -2);
+	glVertex2f(-2, -2);
+	glEnd();
+	glPopMatrix();
+
+    glPushMatrix();
+    glScalef(0.35, 0.35, 0);
+    glTranslatef(-1.4, 2.5, 0);
+    glBegin(GL_POLYGON);
+    glColor3ub(210, 105, 30);
+    glVertex2d(0.6, 0.0);
+    glColor3ub(128, 0, 0);
+    glVertex2d(0.35, -0.125);
+    glVertex2d(0.45, -0.3);
+    glVertex2d(0.2, -0.3);
+    glVertex2d(0.2, -0.6);
+    glVertex2d(0.0, -0.4);
+    glVertex2d(-0.3, 0.6);
+    glVertex2d(-0.2, -0.3);
+    glVertex2d(-0.6, -0.3);
+    glVertex2d(-0.3, -0.1);
+    glColor3ub(205, 133, 111);
+    glVertex2d(-0.5, 0.05);
+    glVertex2d(-0.25, 0.1);
+    glVertex2d(-0.4, 0.5);
+    glVertex2d(-0.05, 0.25);
+    glColor3ub(200, 192, 152);
+    glVertex2d(0.05, 0.4);
+    glVertex2d(0.15, 0.25);
+    glVertex2d(0.5, 0.4);
+    glVertex2d(0.3, 0.1);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glScalef(0.35, 0.35, 0);
+    glTranslatef(1.5, -2.5, 0);
+    glBegin(GL_POLYGON);
+    glColor3ub(210, 105, 30);
+    glVertex2d(0.6, 0.0);
+    glColor3ub(128, 0, 0);
+    glVertex2d(0.35, -0.125);
+    glVertex2d(0.45, -0.3);
+    glVertex2d(0.2, -0.3);
+    glVertex2d(0.2, -0.6);
+    glVertex2d(0.0, -0.4);
+    glVertex2d(-0.3, 0.6);
+    glVertex2d(-0.2, -0.3);
+    glVertex2d(-0.6, -0.3);
+    glVertex2d(-0.3, -0.1);
+    glColor3ub(205, 133, 111);
+    glVertex2d(-0.5, 0.05);
+    glVertex2d(-0.25, 0.1);
+    glVertex2d(-0.4, 0.5);
+    glVertex2d(-0.05, 0.25);
+    glColor3ub(200, 192, 152);
+    glVertex2d(0.05, 0.4);
+    glVertex2d(0.15, 0.25);
+    glVertex2d(0.5, 0.4);
+    glVertex2d(0.3, 0.1);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glScalef(0.35, 0.35, 0);
+    glTranslatef(-0.9, -0.9, 0);
+    glBegin(GL_POLYGON);
+    glColor3ub(210, 105, 30);
+    glVertex2d(0.6, 0.0);
+    glColor3ub(128, 0, 0);
+    glVertex2d(0.35, -0.125);
+    glVertex2d(0.45, -0.3);
+    glVertex2d(0.2, -0.3);
+    glVertex2d(0.2, -0.6);
+    glVertex2d(0.0, -0.4);
+    glVertex2d(-0.3, 0.6);
+    glVertex2d(-0.2, -0.3);
+    glVertex2d(-0.6, -0.3);
+    glVertex2d(-0.3, -0.1);
+    glColor3ub(205, 133, 111);
+    glVertex2d(-0.5, 0.05);
+    glVertex2d(-0.25, 0.1);
+    glVertex2d(-0.4, 0.5);
+    glVertex2d(-0.05, 0.25);
+    glColor3ub(200, 192, 152);
+    glVertex2d(0.05, 0.4);
+    glVertex2d(0.15, 0.25);
+    glVertex2d(0.5, 0.4);
+    glVertex2d(0.3, 0.1);
+    glEnd();
+    glPopMatrix();
+
+    glPushMatrix();
+    glScalef(0.35, 0.35, 0);
+    glTranslatef(1.2, 1.2, 0);
+    glBegin(GL_POLYGON);
+    glColor3ub(210, 105, 30);
+    glVertex2d(0.6, 0.0);
+    glColor3ub(128, 0, 0);
+    glVertex2d(0.35, -0.125);
+    glVertex2d(0.45, -0.3);
+    glVertex2d(0.2, -0.3);
+    glVertex2d(0.2, -0.6);
+    glVertex2d(0.0, -0.4);
+    glVertex2d(-0.3, 0.6);
+    glVertex2d(-0.2, -0.3);
+    glVertex2d(-0.6, -0.3);
+    glVertex2d(-0.3, -0.1);
+    glColor3ub(205, 133, 111);
+    glVertex2d(-0.5, 0.05);
+    glVertex2d(-0.25, 0.1);
+    glVertex2d(-0.4, 0.5);
+    glVertex2d(-0.05, 0.25);
+    glColor3ub(200, 192, 152);
+    glVertex2d(0.05, 0.4);
+    glVertex2d(0.15, 0.25);
+    glVertex2d(0.5, 0.4);
+    glVertex2d(0.3, 0.1);
+    glEnd();
+    glPopMatrix();
+}
